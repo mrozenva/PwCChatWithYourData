@@ -8,6 +8,8 @@ import { createPineconeIndex } from '@/utils/pinecone-client';
 import { PINECONE_NAME_SPACE } from '@/config/pinecone';
 import extractTextFromFile from '@/utils/extractTextFromFiles';
 
+//new comment
+
 const formidableConfig = {
   keepExtensions: true,
   maxFileSize: 10_000_000, // 10MB
